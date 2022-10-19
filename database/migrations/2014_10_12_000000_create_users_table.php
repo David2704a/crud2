@@ -17,7 +17,7 @@ return new class extends Migration
             $table->id();
             $table->string('names');
             $table->string('apellidos');
-            $table->dateTime('fecha');
+            $table->string('fecha');
             $table->string('genero');
             $table->string('telefono');            
             $table->string('email')->unique();
