@@ -1,5 +1,6 @@
 @extends('users.layout')
 @section('content')
+<title>Crear</title>
 <div class="card" style="margin: 20px">
     <div class="card-header">Crear nuevo usuario</div>
     <div class="card-body">

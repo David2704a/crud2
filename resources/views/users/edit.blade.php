@@ -1,5 +1,6 @@
 @extends('users.layout')
 @section('content')
+<title>Editar</title>
 <div class="card" style="margin: 20px">
     <div class="card-header">Editar Estudiante</div>
     <div class="card-body">

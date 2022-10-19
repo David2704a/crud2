@@ -1,5 +1,6 @@
 @extends('users.layout')
 @section('content')
+<title>Usuarios</title>
 <div class="container">
     <div class="row" style="margin:20px">
         <div class="col-12">

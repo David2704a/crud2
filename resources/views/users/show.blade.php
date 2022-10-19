@@ -1,5 +1,6 @@
 @extends('users.layout')
 @section('content')
+<title>Vista</title>
 <div class="card" style="margin:20px;">
     <div class="card-header">Students Page</div>
     <div class="card-body">
