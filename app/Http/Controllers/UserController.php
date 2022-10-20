@@ -2,11 +2,16 @@
 
 namespace App\Http\Controllers;
 
+use App\Http\Requests\CrearRequest;
 use App\Models\User;
+use Illuminate\Foundation\Auth\User as AuthUser;
 use Illuminate\Http\Request;
 
 class UserController extends Controller
 {
+
+
+   
     /**
      * Display a listing of the resource.
      *
@@ -91,4 +96,13 @@ class UserController extends Controller
         User::destroy($id);
         return redirect('usuarios')->with('flash_message','Usuario Actualizado');
     }
+
+    //////////REGLAS PARA AGREGAR USUARIOS
+
+   /*public function register(CrearRequest $request){
+        $users =User::create($request->validated());
+        return redirect('/usuarios')->with('success', 'Account created successfully');
+      
+    }*/
+   
 }
